@@ -8,6 +8,6 @@
 #' @param tau A double.
 #' @export
 phi_app <- function(X_stand, anc, tau) {
-    .Call('_softmatrix_phi_app', PACKAGE = 'softmatrix', X_stand, anc, tau)
+    .Call(`_softmatrix_phi_app`, X_stand, anc, tau)
 }
 
